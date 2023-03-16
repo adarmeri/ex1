@@ -15,5 +15,3 @@ const obj = {
 
 const {person:{name , age}} = obj;
 const {street,city,state} = obj.person.getAddress();
-
-console.log(street);
